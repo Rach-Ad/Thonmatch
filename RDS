@@ -1,0 +1,41 @@
+App Name: ThonMatch
+
+App Type: AI-powered cultural dating platform for South Sudanese singles
+
+Core Features:
+1. User Sign Up and Profile Creation
+   - Collect name, age, gender, location (diaspora/home), tribe, dialect, religion, family values.
+   - Use OpenAI to auto-generate a dating bio based on cultural inputs.
+
+2. Matchmaking Engine
+   - Filter matches by preferences (tribe, religion, values).
+   - Display profiles in Tinder-style card format.
+
+3. AI Icebreaker Generator
+   - On profile view, show 3 AI-generated cultural icebreakers based on shared values or location.
+
+4. In-App Chat with AI Coach
+   - Use ChatGPT to offer dating advice inside chat window.
+   - Commands: “Help me reply”, “Suggest a date idea”.
+
+5. Admin Dashboard
+   - View registered users.
+   - Moderate bios and chat reports.
+
+Tech Stack:
+- Frontend: React.js (or Bubble for no-code)
+- Backend: Node.js or Firebase
+- AI: OpenAI GPT API (text-davinci-003 or gpt-4)
+- Database: Firestore or Supabase
+- Hosting: Vercel or Netlify
+
+Design:
+- Minimal, mobile-first layout.
+- Traditional patterns/colors for a South Sudanese aesthetic.
+
+Monetization:
+- Free version + Paid “ThonPlus” tier (see who likes you, more matches per day).
+
+Launch Strategy:
+- Target diaspora first (USA, Australia, Canada, Kenya, Uganda).
+- Use TikTok/Instagram reels featuring relatable skits.
